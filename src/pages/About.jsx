@@ -53,7 +53,7 @@ const About = () => {
             </div>
           </div>
 
-          <img className='ml-[155px] xl:block md:hidden hidden' src={aboutdesk2} alt="aboutdesk2" />
+          <img className='2xl:ml-[197px] xl:ml-[155px] xl:block md:hidden hidden' src={aboutdesk2} alt="aboutdesk2" />
 
         </div>
 
