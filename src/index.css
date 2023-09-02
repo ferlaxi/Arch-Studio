@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+
+    .link{
+        color: #7D828F !important;
+        font-weight: bold;
+    }
+
+    .link.active{
+        background-color: #1B1D23 !important;
+        color: #EEEFF4 !important;
+    }
+
+    .link.active:hover{
+        background-color: #1B1D23 !important;
+    }
+
+    .link:hover{
+        transition: all .7s ;
+    }
+
+    .navLink.active{
+        color: #1B1D23 !important;  
+    }
+
+    .navLink::after{
+        content: "";
+        left: 0;
+        position: absolute;
+        background-color: #1B1D23;
+        top: 100%;
+        width: 40%;
+        margin-left: 30%;
+        height: 1px;
+        opacity: 0;
+    }
+
+    .navLink.active::after{
+        opacity: 0.8;
+    }
+}
