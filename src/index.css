@@ -21,6 +21,7 @@
     }
 
     .link:hover{
+        background-color: #EEEFF4 !important;
         transition: all .7s ;
     }
 
